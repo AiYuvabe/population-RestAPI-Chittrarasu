@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from backend.population_pandas import get_continents, get_continent_data
+from backend.service.population_pandas import get_continents, get_continent_data
 from backend.models.population_models import ContinentResponse, ContinentsListResponse, StatResponse
 from backend.logger import logger  # Import the logger
 

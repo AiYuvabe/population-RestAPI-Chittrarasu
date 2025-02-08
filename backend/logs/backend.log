@@ -1,0 +1,103 @@
+2025-02-08 15:52:40,867 - INFO - CSV file loaded successfully.
+2025-02-08 15:52:40,919 - INFO - Data processing completed.
+2025-02-08 15:52:40,973 - INFO - Starting FastAPI application...
+2025-02-08 15:52:41,034 - INFO - Will watch for changes in these directories: ['C:\\chitu\\population_api\\backend']
+2025-02-08 15:52:41,047 - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-02-08 15:52:41,055 - INFO - Started reloader process [9064] using WatchFiles
+2025-02-08 15:52:49,238 - INFO - CSV file loaded successfully.
+2025-02-08 15:52:49,304 - INFO - Data processing completed.
+2025-02-08 15:52:49,383 - INFO - Starting FastAPI application...
+2025-02-08 15:52:49,388 - INFO - Started server process [2244]
+2025-02-08 15:52:49,430 - INFO - Waiting for application startup.
+2025-02-08 15:52:49,440 - INFO - Application startup complete.
+2025-02-08 15:53:03,119 - INFO - 1 change detected
+2025-02-08 15:53:09,390 - INFO - 1 change detected
+2025-02-08 15:53:09,780 - INFO - 1 change detected
+2025-02-08 15:53:10,147 - INFO - 1 change detected
+2025-02-08 15:53:10,518 - INFO - 1 change detected
+2025-02-08 15:53:10,886 - INFO - 1 change detected
+2025-02-08 15:53:11,253 - INFO - 1 change detected
+2025-02-08 15:53:11,608 - INFO - 1 change detected
+2025-02-08 15:53:11,965 - INFO - 1 change detected
+2025-02-08 15:53:12,376 - INFO - 1 change detected
+2025-02-08 15:53:12,742 - INFO - 1 change detected
+2025-02-08 15:53:13,104 - INFO - 1 change detected
+2025-02-08 15:53:13,464 - INFO - 1 change detected
+2025-02-08 15:53:13,822 - INFO - 1 change detected
+2025-02-08 15:53:14,181 - INFO - 1 change detected
+2025-02-08 15:53:14,539 - INFO - 1 change detected
+2025-02-08 15:53:14,898 - INFO - 1 change detected
+2025-02-08 15:53:15,255 - INFO - 1 change detected
+2025-02-08 15:53:15,452 - INFO - Shutting down
+2025-02-08 15:53:15,563 - INFO - Waiting for application shutdown.
+2025-02-08 15:53:15,568 - INFO - Application shutdown complete.
+2025-02-08 15:53:15,573 - INFO - Finished server process [2244]
+2025-02-08 15:53:16,005 - INFO - Stopping reloader process [9064]
+2025-02-08 15:54:14,638 - INFO - CSV file loaded successfully.
+2025-02-08 15:54:14,686 - INFO - Data processing completed.
+2025-02-08 15:54:14,739 - INFO - Starting FastAPI application...
+2025-02-08 15:54:14,823 - INFO - Will watch for changes in these directories: ['C:\\chitu\\population_api\\backend']
+2025-02-08 15:54:14,834 - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-02-08 15:54:14,845 - INFO - Started reloader process [2996] using WatchFiles
+2025-02-08 15:54:21,431 - INFO - CSV file loaded successfully.
+2025-02-08 15:54:21,479 - INFO - Data processing completed.
+2025-02-08 15:54:21,534 - INFO - Starting FastAPI application...
+2025-02-08 15:54:21,537 - INFO - Started server process [3292]
+2025-02-08 15:54:21,552 - INFO - Waiting for application startup.
+2025-02-08 15:54:21,558 - INFO - Application startup complete.
+2025-02-08 15:54:57,859 - INFO - Home endpoint accessed
+2025-02-08 15:55:30,302 - INFO - Fetching all continents
+2025-02-08 15:55:30,303 - INFO - Fetching all continents.
+2025-02-08 15:55:30,335 - INFO - Fetching statistics for continent: Africa, stat: None
+2025-02-08 15:55:30,337 - INFO - Fetching data for continent: Africa
+2025-02-08 15:55:30,344 - INFO - Successfully fetched data for Africa
+2025-02-08 15:56:58,310 - INFO - Fetching all continents
+2025-02-08 15:56:58,312 - INFO - Fetching all continents.
+2025-02-08 15:57:05,106 - INFO - Fetching statistics for continent: Asia, stat: None
+2025-02-08 15:57:05,109 - INFO - Fetching data for continent: Asia
+2025-02-08 15:57:05,120 - INFO - Successfully fetched data for Asia
+2025-02-08 15:57:13,566 - INFO - Fetching statistics for continent: Asia, stat: Total_Countries
+2025-02-08 15:57:13,568 - INFO - Fetching data for continent: Asia
+2025-02-08 15:57:13,572 - INFO - Returning stat Total_Countries for Asia
+2025-02-08 16:04:49,364 - INFO - CSV file loaded successfully.
+2025-02-08 16:04:49,413 - INFO - Data processing completed.
+2025-02-08 16:04:49,479 - INFO - Starting FastAPI application...
+2025-02-08 16:04:49,570 - INFO - Will watch for changes in these directories: ['C:\\chitu\\population_api\\backend']
+2025-02-08 16:04:49,580 - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-02-08 16:04:49,588 - INFO - Started reloader process [1920] using WatchFiles
+2025-02-08 16:04:58,531 - INFO - CSV file loaded successfully.
+2025-02-08 16:04:58,593 - INFO - Data processing completed.
+2025-02-08 16:04:58,665 - INFO - Starting FastAPI application...
+2025-02-08 16:04:58,669 - INFO - Started server process [5408]
+2025-02-08 16:04:58,687 - INFO - Waiting for application startup.
+2025-02-08 16:04:58,696 - INFO - Application startup complete.
+2025-02-08 16:05:22,393 - INFO - Fetching all continents
+2025-02-08 16:05:22,395 - INFO - Fetching all continents.
+2025-02-08 16:05:22,424 - INFO - Fetching statistics for continent: Africa, stat: None
+2025-02-08 16:05:22,427 - INFO - Fetching data for continent: Africa
+2025-02-08 16:05:22,439 - INFO - Successfully fetched data for Africa
+2025-02-08 16:05:27,302 - INFO - Fetching all continents
+2025-02-08 16:05:27,304 - INFO - Fetching all continents.
+2025-02-08 16:05:27,329 - INFO - Fetching statistics for continent: Europe, stat: None
+2025-02-08 16:05:27,331 - INFO - Fetching data for continent: Europe
+2025-02-08 16:05:27,339 - INFO - Successfully fetched data for Europe
+2025-02-08 16:05:33,341 - INFO - Fetching all continents
+2025-02-08 16:05:33,342 - INFO - Fetching all continents.
+2025-02-08 16:05:33,369 - INFO - Fetching statistics for continent: Africa, stat: None
+2025-02-08 16:05:33,371 - INFO - Fetching data for continent: Africa
+2025-02-08 16:05:33,377 - INFO - Successfully fetched data for Africa
+2025-02-08 16:08:30,755 - INFO - Fetching all continents
+2025-02-08 16:08:30,757 - INFO - Fetching all continents.
+2025-02-08 16:08:30,791 - INFO - Fetching statistics for continent: Africa, stat: None
+2025-02-08 16:08:30,795 - INFO - Fetching data for continent: Africa
+2025-02-08 16:08:30,803 - INFO - Successfully fetched data for Africa
+2025-02-08 16:08:37,230 - INFO - Fetching all continents
+2025-02-08 16:08:37,232 - INFO - Fetching all continents.
+2025-02-08 16:08:37,261 - INFO - Fetching statistics for continent: Africa, stat: None
+2025-02-08 16:08:37,264 - INFO - Fetching data for continent: Africa
+2025-02-08 16:08:37,270 - INFO - Successfully fetched data for Africa
+2025-02-08 16:10:16,115 - INFO - Shutting down
+2025-02-08 16:10:16,226 - INFO - Waiting for application shutdown.
+2025-02-08 16:10:16,231 - INFO - Application shutdown complete.
+2025-02-08 16:10:16,236 - INFO - Finished server process [5408]
+2025-02-08 16:10:16,671 - INFO - Stopping reloader process [1920]
