@@ -101,3 +101,13 @@
 2025-02-08 16:10:16,231 - INFO - Application shutdown complete.
 2025-02-08 16:10:16,236 - INFO - Finished server process [5408]
 2025-02-08 16:10:16,671 - INFO - Stopping reloader process [1920]
+2025-02-10 11:52:37,019 - INFO - CSV file loaded successfully.
+2025-02-10 11:52:37,108 - INFO - Data processing completed.
+2025-02-10 11:52:37,176 - INFO - Starting FastAPI application...
+2025-02-10 11:52:37,381 - INFO - Will watch for changes in these directories: ['C:\\chitu\\population_api\\backend']
+2025-02-10 11:52:37,399 - ERROR - [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-02-10 11:56:24,383 - INFO - CSV file loaded successfully.
+2025-02-10 11:56:24,468 - INFO - Data processing completed.
+2025-02-10 11:56:24,560 - INFO - Starting FastAPI application...
+2025-02-10 11:56:24,731 - INFO - Will watch for changes in these directories: ['C:\\chitu\\population_api\\backend']
+2025-02-10 11:56:24,754 - ERROR - [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions

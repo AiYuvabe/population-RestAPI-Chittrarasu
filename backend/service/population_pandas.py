@@ -2,31 +2,39 @@ import pandas as pd
 # from backend.population_pandas import get_continents, get_continent_data
 from backend.logger import logger
 
-# Load the dataset
+import os
+
+# file_path = os.path.join(os.path.dirname(__file__), "../../data/world_population.csv")
+file_path = os.path.join(os.path.dirname(__file__), "../data/world_population.csv")
+# file_path = os.path.abspath(file_path)  # Convert to absolute path
+
+file_path = os.path.abspath(file_path)  # Convert to absolute path
 try:
-    df = pd.read_csv("data/world_population.csv")
-    logger.info("CSV file loaded successfully.")
+    df = pd.read_csv(file_path)
+    logger.info(f"CSV file loaded successfully from: {file_path}")
 except Exception as e:
-    logger.error(f"Error loading CSV file: {e}")
+    logger.error(f"Error loading CSV file from {file_path}: {e}")
+    df = None  # Prevent NameError if file loading fails
 
-# Aggregate the data
-continent_stats = df.groupby("Continent").agg(
-    Total_Countries=('Country', 'count'),
-    Total_Population=('Population', 'sum'),
-    Average_Population=('Population', 'mean'),
-    Total_Area=('Area', 'sum'),
-    max_population=('Population', 'max'),
-    min_population=('Population', 'min'),
-    Country_Max_Population=('Population', lambda x: df.loc[x.idxmax(), 'Country']),
-    Country_Min_Population=('Population', lambda x: df.loc[x.idxmin(), 'Country'])
-).reset_index()
+if df is not None:
+    # Perform the aggregations only if df is successfully loaded
+    continent_stats = df.groupby("Continent").agg(
+        Total_Countries=('Country', 'count'),
+        Total_Population=('Population', 'sum'),
+        Average_Population=('Population', 'mean'),
+        Total_Area=('Area', 'sum'),
+        max_population=('Population', 'max'),
+        min_population=('Population', 'min'),
+        Country_Max_Population=('Population', lambda x: df.loc[x.idxmax(), 'Country']),
+        Country_Min_Population=('Population', lambda x: df.loc[x.idxmin(), 'Country'])
+    ).reset_index()
 
-# Compute Population Density
-continent_stats["Population_Density"] = (
-    continent_stats["Total_Population"] / continent_stats["Total_Area"]
-)
+    # Compute Population Density
+    continent_stats["Population_Density"] = (
+        continent_stats["Total_Population"] / continent_stats["Total_Area"]
+    )
 
-logger.info("Data processing completed.")
+    logger.info("Data processing completed.")
 
 def get_continents():
     """Returns a list of all continents."""
@@ -43,3 +51,5 @@ def get_continent_data(continent):
         return {}
 
     return result.to_dict()
+
+
